@@ -29,7 +29,6 @@ const producer_load = async (req, res, next) => {
     console.log("dataObj", dataObj);
     console.log("objArray: ", objArray);
     res.status(200).send(dataObj);
-    // res.status(200).json(dataObj);
 }
 
 
